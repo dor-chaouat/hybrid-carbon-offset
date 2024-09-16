@@ -8,7 +8,7 @@ import '@wix/design-system/styles.global.css';
 
 const WIX_ECOMMERCE_APP_ID = '1380b703-ce81-ff05-f115-39571d94dfcd';
 const CHECKOUT_PAGE_ID = '14fd5970-8072-c276-1246-058b79e70c1a';
-const PLUGIN_ID = '<BLOCKS_PLUGIN_EXTENSION_ID'
+const PLUGIN_ID = 'a37dc989-b6bc-43fd-8786-fe54bacd862e'
 
 export const MainButton: FC<Settings> = (settings) => {
   return (

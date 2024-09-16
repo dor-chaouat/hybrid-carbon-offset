@@ -1,7 +1,7 @@
 import type { Settings } from "../types";
 
-export const SETTINGS_COLLECTION_ID = "<BLOCKS_NAMESPACE>";
-export const CHECKOUT_COLLECTION_ID = "<BLOCKS_NAMESPACE>";
+export const SETTINGS_COLLECTION_ID = "@dorcha/hybrid-carbon-offset/Settings";
+export const CHECKOUT_COLLECTION_ID = "@dorcha/hybrid-carbon-offset/checkout";
 export const DEFAULT_SETTING: Settings = {
   title: 'Make it carbon neutral',
   amount: 2,
