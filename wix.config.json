@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/wix-config.json",
+  "appId": "b6393e9a-90b3-4898-94ed-4e1b07dbcec2",
+  "projectId": "hybrid-carbon-offset"
+}
