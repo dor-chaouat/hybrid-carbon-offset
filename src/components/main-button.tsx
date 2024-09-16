@@ -3,12 +3,12 @@ import { httpClient } from '@wix/essentials';
 import { dashboard } from '@wix/dashboard';
 import { Button } from '@wix/design-system';
 import { GetStarted } from '@wix/wix-ui-icons-common';
-import { id as PLUGIN_ID } from '../site/plugins/custom-elements/carbon-offset/plugin.json';
 import type { Settings } from '../types';
 import '@wix/design-system/styles.global.css';
 
 const WIX_ECOMMERCE_APP_ID = '1380b703-ce81-ff05-f115-39571d94dfcd';
 const CHECKOUT_PAGE_ID = '14fd5970-8072-c276-1246-058b79e70c1a';
+const PLUGIN_ID = '<BLOCKS_PLUGIN_EXTENSION_ID'
 
 export const MainButton: FC<Settings> = (settings) => {
   return (
